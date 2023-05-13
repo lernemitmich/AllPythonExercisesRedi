@@ -1,0 +1,23 @@
+Import the random module to generate the computer's choice.
+
+Define the play_rock_paper_scissors() function that takes the user's choice as input and determines the outcome of the game. It compares the user's choice with the computer's choice and returns the result as a string.
+
+Start an infinite loop using while True. This loop allows the user to play multiple rounds until they choose to quit.
+
+Prompt the user to enter their choice using the input() function. The user's input is stored in the variable user_input.
+
+Convert the user's input to lowercase and remove any leading/trailing spaces using the strip() and lower() methods.
+
+Check if the user wants to quit by comparing user_input with the string "quit". If they do, break out of the loop.
+
+Validate the user's input. If the input is not one of "rock", "paper", or "scissors", display an error message, and continue to the next iteration of the loop using the continue statement.
+
+Call the play_rock_paper_scissors() function with the user's input as an argument. The returned result is stored in the variable result.
+
+Display the result to the user using the print() function.
+
+Print an empty line to separate each round.
+
+Repeat the loop, allowing the user to play again.
+
+When the user chooses to quit by entering "quit", the loop breaks, and the program prints a "Thanks for playing!" message.

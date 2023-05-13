@@ -1,0 +1,17 @@
+currency = input("Enter the currency you want to convert to: "): This line prompts the user to input the desired currency to convert to.
+
+amount = float(input("Enter the amount in euros you want to convert: ")): This line prompts the user to input the amount in euros that they want to convert. The input is converted to a float.
+
+currency = currency.strip().title(): This line removes any leading or trailing spaces from the currency input using the strip() method. Then, it converts the currency string to title case using the title() method. This ensures that the user's input is correctly formatted for matching the keys in the exchange_rates dictionary.
+
+if currency in exchange_rates:: This line checks if the entered currency exists as a key in the exchange_rates dictionary.
+
+conversion_rate = exchange_rates[currency]: If the entered currency is found in the exchange_rates dictionary, this line retrieves the corresponding exchange rate for the given currency.
+
+converted_amount = amount * conversion_rate: The code calculates the converted amount by multiplying the input amount (in euros) by the conversion_rate. This gives the equivalent amount in the desired currency.
+
+print(f"You would receive {converted_amount} {currency}."): The code prints the calculated converted amount along with the currency symbol.
+
+else:: If the entered currency is not found in the exchange_rates dictionary, this block of code is executed.
+
+print("Currency not found in the exchange rates."): The code displays a message indicating that the entered currency is not available in the exchange rates.

@@ -1,0 +1,11 @@
+strip() method:
+The strip() method is used to remove leading and trailing whitespace (spaces, tabs, newlines) from a string. It returns a new string with the whitespace characters removed.
+
+It's important to note that strip() doesn't remove whitespace characters within the string, only at the beginning and end. If you want to remove all whitespace characters, including those within the string, you can use the replace() method.
+
+title() method:
+The title() method is used to convert a string to title case. It capitalizes the first character of each word and converts the remaining characters to lowercase. Words are defined as sequences of characters separated by whitespaces
+
+The title() method is useful when you want to format strings so that the first letter of each word is capitalized, which is commonly seen in titles, headings, or proper noun capitalization.
+
+It's important to note that the title() method may not handle certain cases perfectly, such as special cases like acronyms or names that should be capitalized in a specific way. In those cases, you might need to implement custom logic or use a more advanced approach for title casing.

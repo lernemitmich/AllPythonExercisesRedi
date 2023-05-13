@@ -1,0 +1,41 @@
+Definitions of binary, hexadecimal, and decimal numbers, along with the conversion methods between them:
+
+Binary Numbers:
+
+Binary numbers are base-2 numbers that use only two digits: 0 and 1.
+Each digit in a binary number represents a power of 2, starting from the rightmost digit.
+For example, the binary number 1011 represents (1 * 2^3) + (0 * 2^2) + (1 * 2^1) + (1 * 2^0) = 11 in decimal.
+Hexadecimal Numbers:
+
+Hexadecimal numbers are base-16 numbers that use digits from 0 to 9 and letters from A to F to represent values from 10 to 15.
+Each digit in a hexadecimal number represents a power of 16, starting from the rightmost digit.
+For example, the hexadecimal number 2F represents (2 * 16^1) + (15 * 16^0) = 47 in decimal.
+Decimal Numbers:
+
+Decimal numbers are base-10 numbers that use digits from 0 to 9.
+Each digit in a decimal number represents a power of 10, starting from the rightmost digit.
+For example, the decimal number 256 represents (2 * 10^2) + (5 * 10^1) + (6 * 10^0) = 256.
+Conversion Methods:
+
+Decimal to Binary:
+
+Divide the decimal number by 2 repeatedly and note the remainder each time.
+The binary representation is obtained by taking the remainders in reverse order.
+For example, to convert 10 to binary: 10 divided by 2 is 5 with a remainder of 0, and 5 divided by 2 is 2 with a remainder of 1.
+The binary representation is 1010.
+Binary to Decimal:
+
+Multiply each binary digit by the corresponding power of 2 and sum the results.
+For example, to convert 1011 to decimal: (1 * 2^3) + (0 * 2^2) + (1 * 2^1) + (1 * 2^0) = 11.
+Decimal to Hexadecimal:
+
+Divide the decimal number by 16 repeatedly and note the remainder each time.
+For remainders greater than 9, use the corresponding letter from A to F.
+The hexadecimal representation is obtained by taking the remainders in reverse order.
+For example, to convert 255 to hexadecimal: 255 divided by 16 is 15 with a remainder of 15 (F), and 15 divided by 16 is 0 with a remainder of 15 (F).
+The hexadecimal representation is FF.
+Hexadecimal to Decimal:
+
+Multiply each hexadecimal digit by the corresponding power of 16 and sum the results.
+For example, to convert 2F to decimal: (2 * 16^1) + (15 * 16^0) = 47.
+These are the basic definitions and conversion methods for binary, hexadecimal, and decimal numbers. 

@@ -1,0 +1,19 @@
+We define six functions: decimal_to_hex, hex_to_decimal, decimal_to_binary, binary_to_decimal, hex_to_binary, and binary_to_hex. These functions handle the conversion between different number systems.
+
+The print_menu function prints the options available to the user.
+
+The main function is the entry point of the program. It runs in a loop until the user chooses to exit (option 0).
+
+Inside the main function, we display the menu using the print_menu function and prompt the user for their choice.
+
+Based on the user's choice, we perform the respective conversion by calling the corresponding functions and displaying the result.
+
+For example, if the user chooses option 1 to convert from decimal to hexadecimal, we prompt them to enter the decimal number. Then we call the decimal_to_hex function, passing the decimal number as an argument, and store the result in the hexadecimal variable. Finally, we print the hexadecimal representation.
+
+Similarly, for each conversion option, we prompt the user for the required input, call the appropriate conversion function, and display the result.
+
+If the user enters an invalid option, we display an error message and prompt them to try again.
+
+After each conversion, we print an empty line to provide separation between the outputs.
+
+That's the breakdown of the code. It follows a structure where the menu is displayed, the user input is taken, the corresponding conversion function is called, and the result is displayed. The loop continues until the user chooses to exit.

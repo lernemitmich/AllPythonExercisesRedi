@@ -1,0 +1,27 @@
+The check_palindrome() function takes a word as input and checks whether it is a palindrome or not. It reverses the word and compares it with the original word. If they are the same, it returns True; otherwise, it returns False.
+
+The run_palindrome_checker() function runs the main logic of the app. It displays a welcome message and instructions to the user.
+
+Inside the run_palindrome_checker() function, there is an infinite while loop that allows the user to interact with the app multiple times until they choose to exit.
+
+Inside the loop, the user is prompted to enter a word using the input() function. The entered word is stored in the word variable.
+
+The user has the option to type 'exit' to quit the app. If the user enters 'exit', the app prints a farewell message and breaks out of the loop using the break statement.
+
+If the user enters a word other than 'exit', the code checks whether the word has an even number of letters. If the length of the word modulo 2 is not equal to 0, it means the word has an odd number of letters. In that case, the app prints a message indicating that the word should have an even number of letters and continues to the next iteration of the loop using the continue statement.
+
+If the word has an even number of letters, the code calls the check_palindrome() function to determine whether the word is a palindrome or not.
+
+If the word is a palindrome (i.e., is_palindrome is True), the app prints a message confirming that the word is a palindrome.
+
+If the word is not a palindrome (i.e., is_palindrome is False), the app prints a message indicating that the word is not a palindrome.
+
+After printing the result, the loop repeats, and the user can enter another word or choose to exit.
+
+The app keeps running until the user decides to quit by typing 'exit'.
+
+
+
+The message "The word should have an even number of letters" is printed when the length of the entered word is not divisible evenly by 2. The condition if len(word) % 2 != 0: checks if the remainder of dividing the length of the word by 2 is not equal to 0, indicating that the word has an odd number of letters.
+
+If you are seeing this message unexpectedly, it could be due to the fact that the word you entered has an odd number of letters. Please make sure that the word you input has an even number of letters in order to proceed with the palindrome check. For example, words like "apple" or "banana" have an odd number of letters, while words like "level" or "radar" have an even number of letters and can be checked for palindromes using the given code.

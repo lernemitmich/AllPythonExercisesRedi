@@ -1,0 +1,23 @@
+A palindrome is a word, phrase, number, or other sequence of characters that reads the same forward and backward. In other words, it remains unchanged when its order is reversed. Palindromes can be formed by individual letters or by combining words or sentences. Here are a few examples:
+
+Words:
+
+"level"
+"radar"
+"madam"
+"deed"
+"refer"
+Phrases:
+
+"A man, a plan, a canal, Panama!"
+"Madam, in Eden, I'm Adam."
+"Step on no pets."
+"Never odd or even."
+"Was it a car or a cat I saw?"
+Numbers:
+
+121
+12321
+1234321
+1001
+Note that palindromes are not limited to the English language and can exist in other languages as well. Palindromes can be a fun linguistic curiosity and are often used as puzzles or in wordplay.

@@ -1,0 +1,27 @@
+The code initializes an empty list called restaurants to store restaurant names.
+
+The while True: loop creates an infinite loop, which means it will keep running until it encounters a break statement.
+
+Inside the loop, a menu of options is displayed to the user using print statements. The available options are:
+
+"a. Add a restaurant": Allows the user to add a restaurant to the list.
+"b. Remove a restaurant": Allows the user to remove a restaurant from the list.
+"c. Show all restaurants": Displays all the restaurants in the list.
+"d. Exit the program": Terminates the program and breaks out of the loop.
+The user is prompted to enter their choice using the input function, and the choice is stored in the choice variable.
+
+The code uses if-elif-else statements to check the user's choice and perform the corresponding action:
+
+If the choice is "a", the user is prompted to enter the name of the restaurant they want to add. The restaurant name is then appended to the restaurants list, and a success message is displayed.
+
+If the choice is "b", the user is prompted to enter the name of the restaurant they want to remove. The code checks if the restaurant is in the restaurants list. If found, it is removed from the list, and a success message is displayed. If not found, a message is displayed indicating that the restaurant is not in the list.
+
+If the choice is "c", the code displays a heading and then iterates over each restaurant in the restaurants list, printing its name.
+
+If the choice is "d", a message indicating the program is exiting is displayed, and the break statement terminates the loop, ending the program.
+
+If the choice doesn't match any of the valid options, an "Invalid choice" message is displayed.
+
+The loop continues to run until the user selects the "d" option to exit the program.
+
+This code provides a simple menu-based program that allows the user to add, remove, or display restaurants in a list, and provides the option to exit the program. The restaurants list is preserved throughout the program's execution, ensuring that the list of restaurants is maintained without resetting it.

@@ -1,0 +1,19 @@
+The while True loop is a common construct used in programming when you want a piece of code to keep running indefinitely until a certain condition is met. The condition True in the while statement ensures that the loop continues indefinitely.
+example :
+counter = 0
+
+while True:
+    print(counter)
+    counter += 1
+    if counter == 10:
+        break
+
+
+
+In this example, we initialize a variable counter to 0. The while True loop keeps running until the condition becomes False. Inside the loop, we print the value of counter, increment it by 1, and then check if it has reached 10. If the condition counter == 10 is true, we use the break statement to exit the loop.
+
+When you run this code, it will print the numbers from 0 to 9 and then exit the loop. Since the condition True is always true, the loop continues indefinitely until the break statement is encountered.
+
+The while True loop is also commonly used when you want to create an interactive program where the user can perform multiple actions until they choose to exit. The user is usually presented with a menu or a set of options, and the loop keeps running until the exit option is selected.
+
+So, in restaurant program we will make , the while True loop allows the program to continuously prompt the user for options and perform the corresponding actions until the user chooses to exit by selecting option d. This way, the program keeps running and maintains the list of restaurants without resetting it
